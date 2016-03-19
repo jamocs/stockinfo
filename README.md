@@ -1,3 +1,5 @@
+##使用
+```
 usage: stock_info_show.py [-h] code [code ...]
 
 show stock info
@@ -7,13 +9,15 @@ positional arguments:
 
 optional arguments:
   -h, --help  show this help message and exit
+```
 
-
-
-Example:
+##Example:
+```python
     python stock_info_show.py sz002610 sz002071 sh601688
+```
 
-Terminal Display:
+##Terminal Display:
+```bash
 now: 2991.2721 rate: -0.05%     kai: 2983.0266  shou: 2992.6432
 now: 10422.802 rate: -0.18%     kai: 10401.675  shou: 10441.920
 --------------------------------------------------------------------------------
@@ -46,3 +50,4 @@ jin2: 17.770    142
 jin3: 17.760    187
 jin4: 17.750    132
 jin5: 17.740    696
+```
